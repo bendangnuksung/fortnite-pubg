@@ -21,13 +21,17 @@ Results after 3 Epochs
 
 1. Prepare Data:
   * Copy your two directory containing images(Fortnite, PUBG) in 'data/raw/'
-  * Then run the below command. This will save the data in batch in numpy format in 'data/prepared/'
+  * Then run the below command. This will save the data in batch numpy format at 'data/prepared/'
   ```sh
   # prepare data
   python3 prepare_data.py
   ```
 2. Build Model
   * To build Model from scratch you can directly run 'fortnite_pubg.ipynb'
-  or 
+  <br/>OR<br/>
   * [Download](https://drive.google.com/file/d/10gWOh0opCzYzadhcfnc6YF936nWAOrrC/view) checkpoint and move it to 'checkpoint/' and run 'fortnite_pubg.ipynb'
-  
+
+## References
+* [NIPS2016](https://github.com/soumith/ganhacks) hacks 
+* [eriklindernoren](https://github.com/eriklindernoren/Keras-GAN)
+* [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
