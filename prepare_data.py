@@ -15,7 +15,7 @@ if not os.path.isdir(prepared_data_path):
 files = os.listdir(raw_data_path)
 folders = []
 for file in files:
-	if os.path.isdir(raw_data_path + file):
+	if os.path.isdir(os.path.join(raw_data_path, file)):
 		folders.append(file)
 
 counter = 1

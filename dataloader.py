@@ -21,7 +21,7 @@ class Data():
 			if os.path.isdir(DATA_PATH + file):
 				folders.append(file)
 		if len(folders) != 2:
-			print("There should be only 2 folders in : %s", DATA_PATH)
+			print("There should be only 2 directories in : %s, but %s is present " % (DATA_PATH, len(folders)))
 			exit()
 		self.folder_path_A = os.path.join(DATA_PATH, folders[0])
 		self.folder_path_B = os.path.join(DATA_PATH, folders[1])
