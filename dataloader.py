@@ -2,7 +2,7 @@ import numpy as np
 import os
 
 
-DATA_PATH = "data/prepared"
+DATA_PATH = "data/prepared/"
 
 
 class Data():
@@ -15,7 +15,11 @@ class Data():
 
 
 	def _load_files(self):
-		folders = os.listdir(DATA_PATH)
+		files = os.listdir(DATA_PATH)
+		folders = []
+		for file in files:
+			if os.path.isdir(DATA_PATH + file):
+				folders.append(file)
 		if len(folders) != 2:
 			print("There should be only 2 folders in : %s", DATA_PATH)
 			exit()
