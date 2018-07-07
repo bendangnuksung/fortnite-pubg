@@ -12,8 +12,11 @@ prepared_data_path = os.path.join(data_path, "prepared")
 if not os.path.isdir(prepared_data_path):
 	os.makedirs(prepared_data_path)
 
-folders = os.listdir(raw_data_path)
-
+files = os.listdir(raw_data_path)
+folders = []
+for file in files:
+	if os.path.isdir(DATA_PATH + file):
+		folders.append(file)
 
 counter = 1
 def dump_np(data, folder_name):
