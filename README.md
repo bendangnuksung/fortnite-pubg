@@ -8,7 +8,7 @@ This Model was trained with 50,000 image each of Fortnite and PUBG
 <br/>
 Results after 3 Epochs
 
-[![Demo](http://i.imgur.com/jmdypDt.jpg =600x400)](https://youtu.be/kca5u-hfzHw)
+[![Demo](https://i.imgur.com/GyXhAhz.jpg)](https://youtu.be/kca5u-hfzHw)
 
 ## Prerequisites
 * python 3.5
