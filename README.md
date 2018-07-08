@@ -9,6 +9,7 @@ This Model was trained with 50,000 image each of Fortnite and PUBG
 Results after 3 Epochs
 
 [Video link](https://youtu.be/kca5u-hfzHw)
+<br>
 [![Demo](https://i.imgur.com/GyXhAhz.jpg)](https://youtu.be/kca5u-hfzHw)
 
 ## Prerequisites
