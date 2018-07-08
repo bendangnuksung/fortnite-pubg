@@ -1,13 +1,14 @@
 # Fortnite - PUBG
 Originally inspired from this [blog](https://towardsdatascience.com/turning-fortnite-into-pubg-with-deep-learning-cyclegan-2f9d339dcdb0)
 
-Converting Fortnite to PUBG using [CycleGAN](https://arxiv.org/abs/1703.10593) and vice versa using Keras
+Converting Fortnite to PUBG (output: 256 * 256) using [CycleGAN](https://arxiv.org/abs/1703.10593) and vice versa using Keras
 
 ## Demo
 This Model was trained with 50,000 image each of Fortnite and PUBG
+<br/>
 Results after 3 Epochs
 
-![demo]()
+[![Demo](http://i.imgur.com/jmdypDt.jpg)](https://youtu.be/kca5u-hfzHw)
 
 ## Prerequisites
 * python 3.5
